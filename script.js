@@ -21,10 +21,9 @@ function appendToResult(value) {
   }
   
   function calculateSquareRoot() {
-    let currentResult = document.getElementById("result").value;
-    let result = Math.sqrt(parseFloat(currentResult));
-    document.getElementById("result").value = result;
+    document.getElementById("result").value += "Math.sqrt()";
   }
+  
   
   function calculatePower() {
     let currentResult = document.getElementById("result").value;
@@ -49,4 +48,18 @@ function appendToResult(value) {
     let result = Math.tan(parseFloat(currentResult));
     document.getElementById("result").value = result;
   }
+
+  function calculate() {
+    try {
+      let result = eval(document.getElementById("result").value);
+      if (isNaN(result) || result === Infinity || result === -Infinity) {
+        document.getElementById("result").value = "Error";
+      } else {
+        document.getElementById("result").value = result;
+      }
+    } catch (error) {
+      document.getElementById("result").value = "Error";
+    }
+  }
+  
   
