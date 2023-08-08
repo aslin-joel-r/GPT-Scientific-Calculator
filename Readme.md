@@ -1,6 +1,6 @@
 # AI-Powered Scientific Calculator 🧮🤖
 
-Welcome to the AI-Powered Scientific Calculator repository, a cutting-edge creation that merges the brilliance of traditional calculators with the power of artificial intelligence. Inspired by insights shared by the visionary CEO of Agile Cyber Solutions during an enlightening seminar, this calculator represents the next evolution in mathematical computing.
+Welcome to the AI-Powered Scientific Calculator repository, a cutting-edge creation that merges the brilliance of traditional calculators with the power of artificial intelligence. Inspired by insights shared by the visionary **CEO of Agile Cyber Solutions** during an enlightening seminar, this calculator represents the next evolution in mathematical computing.
 
 ## Features:
 - 🔢 Advanced arithmetic operations (addition, subtraction, multiplication, division)
