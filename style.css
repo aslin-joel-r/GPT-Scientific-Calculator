@@ -46,6 +46,11 @@ button.operator {
   background-color: rgb(83, 172, 227);
 }
 
+button.symbol {
+  color: white;
+  background-color: rgb(175, 193, 45);
+}
+
 button.equal {
   background-color: #26dc2c; /* Equal button color */
   grid-column: span 2; /* Spanning 3 columns */
