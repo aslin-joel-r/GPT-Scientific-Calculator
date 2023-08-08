@@ -48,7 +48,7 @@ button.operator {
 
 button.equal {
   background-color: #26dc2c; /* Equal button color */
-  grid-column: span 3; /* Spanning 3 columns */
+  grid-column: span 2; /* Spanning 3 columns */
 }
 
 button:hover {
